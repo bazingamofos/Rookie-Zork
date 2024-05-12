@@ -1,7 +1,7 @@
 # Rookie-Zork
 
 ## About the Developer
-This project was developed by an amateur 15-year-old as a final project for their computer applications course. It was their first project in programming, and they are very proud of it.
+This project was developed by an amateur 15-year-old as a final project for their computer applications course taking inspiration from the classic text-based adventure game Zork. It was their first project in programming, and they are very proud of it.
 
 ## 
 ##
