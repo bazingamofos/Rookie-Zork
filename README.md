@@ -35,3 +35,18 @@ This project was developed by an amateur 15-year-old as a final project for thei
 *	CEMETERY ADVENTURE: Second in the hierarchy of difficulty, this adventure enables the user to switch weapons and find the key to escape the graveyard while staying away from the lurking ghouls!
 
 *	ISLAND ADVENTURE: Most strategic among the three, this adventure also tests your skills in solving riddles to open the treasure chest along with some additional elements!
+
+
+## In-game Screenshots:
+
+![Opening Window:](https://github.com/bazingamofos/Rookie-Zork/assets/69231405/186c9312-f2d8-462f-976b-22678a8f8be2)
+
+![How to Play:](https://github.com/bazingamofos/Rookie-Zork/assets/69231405/b29f4195-5f60-4486-9521-067351c2098d)
+
+![About the Game:](https://github.com/bazingamofos/Rookie-Zork/assets/69231405/c3ab10fd-c8ad-40dd-9f83-2ee8db8b78ac)
+
+
+
+
+
+
