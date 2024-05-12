@@ -1,10 +1,37 @@
+/** 
+      |   | |--- |---\ |--- /|----    \  / |---| |   | |---\    |--- |---\ |--- |---   --|-- | |--- | / |--- --|--  |
+      |___| |--  |___/ |__   \____     \/  |   | |   | |___/    |__  |___/ |--  |--      |   | |    |/  |--    |    |
+      |   | |___ |  \  |___  ____|      |  |___| |___| |  \     |    |  \  |--- |---     |   | |___ | \ |---   |    @
+ 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ |------------------------------------------------------------------------------------------------------------------------|
+ |                                                                                                                        |          
+ |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~                                               |
+ |           **********                          WANT TO WATCH STAR WARS???                          **********           |
+ |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~                                               | 
+ |                                                                                                                        |
+ |                              -Open Command Prompt from start.                                                          |
+ |                                                                                                                        |
+ |                              -Enter this:                                                                              |
+ |                                              TYPE:        pkgmgr /iu:"TelnetClient"                                    | 
+ |                                                                [press ENTER]                                           |
+ |                                                                                                                        |
+ |                                              TYPE:        telnet towel.blinkenlights.nl                                |
+ |                                                                   [press ENTER]                                        |
+ |                                                                                                                        |
+ |                        And Voila! There you have your movie about which you don't know a thing!                        | 
+ |                                                                                                                        |     
+ |------------------------------------------------------------------------------------------------------------------------|
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^          
+*/
+
 import java.util.*;
 public class Game
 {
     Scanner myScanner = new Scanner(System.in);
     Scanner enterScanner = new Scanner(System.in);
     int choice;
-    public static void main() 
+    public static void main(String[] args) 
     {
         Game sc=new Game();
         sc.playerSetUp(); 
@@ -88,17 +115,17 @@ public class Game
         if(choice==1)
         {
             System.out.println("\u000c");
-            g1.main();
+            g1.main(new String[0]);
         }
         else if(choice==2)
         {
             System.out.println("\u000c");
-            g2.main();
+            g2.main(new String[0]);
         }
         else if(choice==3)
         {
             System.out.println("\u000c");
-            g3.main();
+            g3.main(new String[0]);
         }
         else if(choice==4)
         {
@@ -201,7 +228,7 @@ class Game1
     int monsterHP;
     int silverRing;
     Game g=new Game();
-    public static void main() 
+    public static void main(String[] args) 
     {
         Game1 sc=new Game1();
         sc.playerSetUp(); 
@@ -288,7 +315,7 @@ class Game1
                 System.out.println("------------------Press enter to play again------------------");
                 enterScanner.nextLine();
                 System.out.println("\u000c");
-                g.main();
+                g.main(new String[0]);
             }
         }
         else if(choice==3){
@@ -550,7 +577,7 @@ class Game1
 
     public void quit(){
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void dead(){
@@ -567,7 +594,7 @@ class Game1
         System.out.println("------------------Press enter to play again------------------");
         enterScanner.nextLine();
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void win(){
@@ -620,7 +647,7 @@ class Game1
         System.out.println("\n------------------Press enter to play again------------------");
         enterScanner.nextLine();
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
 }
@@ -636,7 +663,7 @@ class Game2
     int goldenKey;
     int choice1=0;
     Game g=new Game();
-    public static void main() 
+    public static void main(String[] args) 
     {
         Game2 sc=new Game2();
         sc.playerSetUp(); 
@@ -1040,7 +1067,7 @@ class Game2
 
     public void quit(){
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void dead(){
@@ -1057,7 +1084,7 @@ class Game2
         System.out.println("\n------------------Press enter to play again------------------");
         enterScanner.nextLine();
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void win(){
@@ -1107,7 +1134,7 @@ class Game2
         System.out.println("\n------------------Press enter to play again------------------");
         enterScanner.nextLine();
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
 }
@@ -1137,7 +1164,7 @@ class Game3
     int clue=0; 
     int j=0;
     Game g=new Game();
-    public static void main() 
+    public static void main(String[] args) 
     {
         Game3 sc=new Game3();
         sc.playerSetUp(); 
@@ -1680,7 +1707,7 @@ class Game3
     public void quit()
     {
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void dead(){
@@ -1697,7 +1724,7 @@ class Game3
         System.out.println("\n------------------Press enter to play again------------------");
         enterScanner.nextLine();
         System.out.println("\u000c");
-        g.main();
+        g.main(new String[0]);
     }
 
     public void win(){
@@ -1834,7 +1861,7 @@ class Game3
             System.out.println("\n------------------Press enter to play again------------------");
             enterScanner.nextLine();
             System.out.println("\u000c");
-            g.main();
+            g.main(new String[0]);
 
         }
     }
@@ -1856,7 +1883,7 @@ class Game3
             System.out.println("\n------------------Press enter to play again------------------");
             enterScanner.nextLine();
             System.out.println("\u000c");
-            g.main();
+            g.main(new String[0]);
         }
         else
         {
@@ -1873,7 +1900,7 @@ class Game3
             System.out.println("\n------------------Press enter to play again------------------");
             enterScanner.nextLine();
             System.out.println("\u000c");
-            g.main();
+            g.main(new String[0]);
         }
     }
 }
